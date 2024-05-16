@@ -1,0 +1,15 @@
+from __future__ import absolute_import
+
+# flake8: noqa
+
+# import apis into api package
+from swagger_client.api.archived_workflow_service_api import ArchivedWorkflowServiceApi
+from swagger_client.api.artifact_service_api import ArtifactServiceApi
+from swagger_client.api.cluster_workflow_template_service_api import ClusterWorkflowTemplateServiceApi
+from swagger_client.api.cron_workflow_service_api import CronWorkflowServiceApi
+from swagger_client.api.event_service_api import EventServiceApi
+from swagger_client.api.event_source_service_api import EventSourceServiceApi
+from swagger_client.api.info_service_api import InfoServiceApi
+from swagger_client.api.sensor_service_api import SensorServiceApi
+from swagger_client.api.workflow_service_api import WorkflowServiceApi
+from swagger_client.api.workflow_template_service_api import WorkflowTemplateServiceApi
