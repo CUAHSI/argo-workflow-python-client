@@ -1,3 +1,11 @@
+# generated with docker image swaggerapi/swagger-codegen-cli
+```
+ docker run --rm -v ${PWD}:/local swaggerapi/swagger-codegen-cli generate \
+    -i https://workflows.argo.cuahsi.io/assets/openapi-spec/swagger.json \
+    -l python \
+    -o /local/out/python
+```
+
 # swagger-client
 Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes. For more information, please see https://argo-workflows.readthedocs.io/en/release-3.5/
 
